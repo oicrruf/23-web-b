@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid limegreen !important; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: azure;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atm {
+  width: 600px;
+  border-radius: 30px;
+  background-color: #f2a516;
+  padding: 30px;
+}
+.atm-brand {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atm-system {
+  border-radius: 30px;
+  padding: 30px 20px;
+  background-color: #c1c1c1;
+}
+/* .atm-brand h1{ */
+.atm-brand__name {
+  background-color: #fec328;
+  padding: 10px 80px;
+  border-radius: 8px;
+  font-size: 5rem;
+  color: #fff;
+  letter-spacing: 15px;
+}
+.atm-system__screen-and-buttons,
+.atm-system__buttons,
+.atm-system__screen {
+  height: 300px;
+}
+.atm-system__buttons {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+}
+.atm-system__screen {
+  background-color: #16aab1;
+  width: 70%;
+  border-radius: 25px;
+  border: 4px solid #535353;
+}
+.atm-system__screen-and-buttons {
+  padding-top:20px ;
+  display: flex;
+  justify-content: space-between;
+  height: 360px;
+  background-color: #A4A4A4;
+  border-bottom: 8px solid #878787;
+}
+.atm-system__button {
+  height: 60px;
+  background-color: gray;
+  border: 4px solid #535353;
+  border-radius: 12px;
+}
+.atm-system__card {
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.atm-system__card-input {
+  border-radius: 4px;
+  height: 10px;
+  width: 100px;
+  background-color: #535353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atm-system__keyboard {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #979797;
+  background-color: #A4A4A4;
+}
+.atm-system__keyboard-console {
+  display: flex;
+justify-content: center;
+align-items: center;
+  width: 50%;
+}
+.atm-system__input-keys {
+  border-top: 4px solid #6E6E6E;
+  background-color: #878787;
+  display: grid;
+  grid-template-columns: repeat(5,35px);
+  gap: 5px;
+  padding: 5px 20px;
+  /* width: 90%; */
+}
+.atm-system__keys {
+  height: 33.33px;
+  background-color: #6D6D6D;
+}
+.atm-system__action {
+  height: 33.33px;
+}
+.atm-system__money {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atm-system__money-output {
+  height: 20px;
+  background-color: black;
+  width: 40%;
+  border: 7px solid gray;
+  border-radius: 4px;
+}
+.atm-system__card-input .atm-system__card-input-circle{
+  height: 20px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: #535353;
+}
+#btn-cancel {
+  background-color: red;
+}
+#btn-success {
+  background-color: green;
+}
+#btn-delete {
+  background-color: yellow;
+}
