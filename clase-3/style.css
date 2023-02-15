@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Babylonica', cursive;
+}
+
+@media (max-width: 600px) {
+  #alumnos li{
+    color: blue;
+  }
+  #alumnos li:first-child{
+    color: red
+  }
+  #alumnos li:last-child{
+    color: green;
+  }
+  #alumnos li:nth-child(2){
+    color: yellow;
+  }
+}
+#alumnos li{
+  color: red;
+}
+
+
